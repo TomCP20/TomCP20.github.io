@@ -2,7 +2,6 @@ import './style.css'
 import ThreeDGameOfLife from '/3DGameOfLife.png'
 import RubiksCube from '/Screenshot-3D.png'
 import Project from './Project'
-import { CSHarp, React, TailwindCSS, ThreeJS, TypeScript, Unity } from './Icons'
 
 export default function App() {
 
@@ -20,7 +19,13 @@ export default function App() {
         </div>
       </div>
       <h2 className='text-center text-xl m-4'>Projects</h2>
-      <Project title='Cellular Automaton Collection' image={ThreeDGameOfLife} repoTo='https://github.com/TomCP20/Cellular-Automaton-Collection' pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection/'>
+      <Project
+        title='Cellular Automaton Collection'
+        image={ThreeDGameOfLife}
+        repoTo='https://github.com/TomCP20/Cellular-Automaton-Collection'
+        pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection/'
+        icons={["React", "TypeScript", "Tailwind CSS", "Three.js"]}
+      >
         Cellular Automaton Collection is a website that contains various celluar automaton such as:
         <ul className="list-disc list-inside">
           <li>Wolfram code</li>
@@ -28,16 +33,15 @@ export default function App() {
           <li>Maze and Mazectric</li>
           <li>The 3D Game of Life</li>
         </ul>
-        <br />
-        <div className='text-center'>
-          <React />
-          <TypeScript />
-          <TailwindCSS />
-          <ThreeJS />
-        </div>
       </Project>
-      
-      <Project title='Rubik Cubes Simulator' image={RubiksCube} repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator' pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'>
+
+      <Project
+        title='Rubik Cubes Simulator'
+        image={RubiksCube}
+        repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator'
+        pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'
+        icons={["C#", "Unity"]}
+      >
         This is a project I created for my dissertation during my 3rd year of the BSc (Hons) Computing Science course at the University of East Anglia. The project has the following features:
         <ul className="list-disc list-inside">
           <li>Simulating a Rubik's cube.</li>
@@ -50,12 +54,6 @@ export default function App() {
           <li>To allow the user to input a Rubik's cube state into the software and see it be solved via the animation system.</li>
           <li>The ability to save and load multiple Rubik's cube states.</li>
         </ul>
-
-        <div className='text-center'>
-          <CSHarp />
-          <Unity />
-        </div>
-
       </Project>
     </>
   )
