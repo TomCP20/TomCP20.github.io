@@ -1,6 +1,6 @@
 import './style.css'
 import ThreeDGameOfLife from '/3DGameOfLife.png'
-import RubiksCube from '/Screenshot-3D.png'
+import RubiksCube from '/RubiksCube.png'
 import AdventOfCode from '/AdventOfCode.png'
 import Project from './Project'
 
