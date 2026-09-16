@@ -5,7 +5,7 @@ export function Project({ title, image, repoTo, pageTo, children }: Readonly<{ t
   return (
     <div className='w-[50%] m-auto p-1'>
       <h3 className='text-center text-lg m-4'>{title}</h3>
-      <img src={image} className='size-100 bg-black mx-auto my-8' />
+      <img src={image} className='bg-black mx-auto my-8' />
       <div>
         {children}
       </div>

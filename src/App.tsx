@@ -1,5 +1,6 @@
 import './style.css'
 import ThreeDGameOfLife from '/3DGameOfLife.png'
+import RubiksCube from '/Screenshot-3D.png'
 import { Project } from './Project'
 
 function App() {
@@ -35,6 +36,21 @@ function App() {
           <li>Three.js</li>
           <li>React Three Fiber</li>
         </ul>
+      </Project>
+      <Project title='Rubik Cubes Simulator' image={RubiksCube} repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator' pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'>
+        This is a project I created for my dissertation during my 3rd year of the BSc (Hons) Computing Science course at the University of East Anglia. The project has the following features:
+        <ul className="list-disc list-inside">
+          <li>Simulating a Rubik's cube.</li>
+          <li>A 3D interactive GUI to allow the user to interact with a Simulated cube.</li>
+          <li>Implementation of The Layer by Layer method.</li>
+          <li>Implementation of The CFOP method.</li>
+          <li>The ability to measure the efficiency of the algorithms using various metrics.</li>
+          <li>The ability to show the effectiveness of the methods via a histogram.</li>
+          <li>To show an animation of a cube being solved using the implemented methods with some information about the method being displayed alongside it.</li>
+          <li>To allow the user to input a Rubik's cube state into the software and see it be solved via the animation system.</li>
+          <li>The ability to save and load multiple Rubik's cube states.</li>
+        </ul>
+
       </Project>
     </>
   )
