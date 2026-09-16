@@ -1,6 +1,7 @@
 import './style.css'
 import ThreeDGameOfLife from '/3DGameOfLife.png'
 import RubiksCube from '/Screenshot-3D.png'
+import AdventOfCode from '/AdventOfCode.png'
 import Project from './Project'
 
 export default function App() {
@@ -54,6 +55,17 @@ export default function App() {
           <li>To allow the user to input a Rubik's cube state into the software and see it be solved via the animation system.</li>
           <li>The ability to save and load multiple Rubik's cube states.</li>
         </ul>
+      </Project>
+
+      <Project
+        title='Advent Of Code'
+        image={AdventOfCode}
+        repoTo='https://github.com/TomCP20/Advent-Of-Code'
+        icons={["Python", "C++", "C#", "Rust", "F#"]}
+      >
+        This is a repository for my solutions to Advent of Code 2024 and 2025.
+        <br />
+        I primarily used Python but I also solved some of the problems using other languages.
       </Project>
     </>
   )
