@@ -3,6 +3,7 @@ import ThreeDGameOfLife from '/3DGameOfLife.png'
 import RubiksCube from '/RubiksCube.png'
 import AdventOfCode from '/AdventOfCode.png'
 import Raycasting from '/Raycasting.png'
+import TurtleFractalDrawer from '/TurtleFractalDrawer.png'
 import Project from './Project'
 
 export default function App() {
@@ -78,6 +79,19 @@ export default function App() {
         This is a Ray casting based renderer written in C# using the OpenTK library.
         <br />
         Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for it's use in The video game Wolfenstein 3D.
+      </Project>
+
+      <Project
+        title='Turtle Fractal Drawer'
+        image={TurtleFractalDrawer}
+        repoTo='https://github.com/TomCP20/Turtle-Fractal-Drawer'
+        icons={['Python']}
+      >
+        This is a Python program that uses a Turtle and L-systems  to draw fractals.
+        <br />
+        L-systems (aka Lindenmayer systems) are a type of fromal grammar, they consist of an axiom and a set of rules.
+        For example to draw a Sierpinski triangle you could use the axiom F-G-G and the rule F -{'>'} F-G+F+G-F, G -{'>'}
+        in this case applying the rules once would result in F-G+F+G-F-GG-GG. The turtle interprits the reult character by character with an F or G meaning "Move forward one step", + meaning "turn right 120 degrees", and - meaning "turn left 120 degrees".
       </Project>
     </>
   )
