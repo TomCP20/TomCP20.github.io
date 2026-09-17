@@ -21,7 +21,7 @@ export default function App() {
         title='Cellular Automaton Collection'
         image='/3DGameOfLife.png'
         repoTo='https://github.com/TomCP20/Cellular-Automaton-Collection'
-        pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection/'
+        pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
         Cellular Automaton Collection is a website that contains various celluar automaton such as:
@@ -37,7 +37,7 @@ export default function App() {
         title='Rubik Cubes Simulator'
         image='/RubiksCube.png'
         repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator'
-        pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'
+        pageTo='https://tomcp20.github.io/Rubik-Cube-Page'
         icons={['C#', 'Unity']}
       >
         This is a project I created for my dissertation during my 3rd year of the BSc (Hons) Computing Science course at the University of East Anglia. The project has the following features:
@@ -104,7 +104,7 @@ export default function App() {
         title='Archimedes Hue Spiral'
         image='/ArchimedesHueSpiral.png'
         repoTo='https://github.com/TomCP20/Archimedes-Hue-Spiral'
-        pageTo='https://tomcp20.github.io/Archimedes-Hue-Spiral/'
+        pageTo='https://tomcp20.github.io/Archimedes-Hue-Spiral'
         icons={['React', 'TypeScript', 'CSS', 'Three.js']}
       >
         A shader animation using React Three Fiber.
@@ -143,7 +143,7 @@ export default function App() {
         title='Mandelbrot Plotting'
         image='/Mandelbrot.png'
         repoTo='https://github.com/TomCP20/Mandelbrot-Plotting'
-        pageTo='https://tomcp20.github.io/Mandelbrot-Plotting/'
+        pageTo='https://tomcp20.github.io/Mandelbrot-Plotting'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
         A React Three Fiber app that uses a shader to render the Mandelbrot set.
@@ -152,8 +152,8 @@ export default function App() {
       <Project
         title='React Spirograph'
         image='/ReactSpirograph.png'
-        repoTo='https://github.com/TomCP20/React-Spirograph/tree/main'
-        pageTo='https://tomcp20.github.io/React-Spirograph/'
+        repoTo='https://github.com/TomCP20/React-Spirograph'
+        pageTo='https://tomcp20.github.io/React-Spirograph'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
         A Spirograph generator made with React..
@@ -163,7 +163,7 @@ export default function App() {
         title='Hangman'
         image='/Hangman.png'
         repoTo='https://github.com/TomCP20/Hangman'
-        pageTo='https://tomcp20.github.io/Hangman/'
+        pageTo='https://tomcp20.github.io/Hangman'
         icons={['React', 'TypeScript', 'Tailwind CSS']}
       >
         Hangman written in React with TypeScipt.
