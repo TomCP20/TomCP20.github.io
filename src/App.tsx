@@ -6,6 +6,7 @@ import Raycasting from '/Raycasting.png'
 import TurtleFractalDrawer from '/TurtleFractalDrawer.png'
 import FallingSandSimulator from '/FallingSandSimulator.png'
 import ArchimedesHueSpiral from '/ArchimedesHueSpiral.png'
+import RayTracing from '/RayTracing.png'
 import Project from './Project'
 
 export default function App() {
@@ -117,6 +118,15 @@ export default function App() {
         A shader animation using React Three Fiber.
         <br />
         It combines Archimedes Spiral with a rainbow conic gradient.
+      </Project>
+
+      <Project
+        title='RayTracing'
+        image={RayTracing}
+        repoTo='https://github.com/TomCP20/RayTracing'
+        icons={['C++']}
+      >
+        RayTracing is a CPU Ray Tracing Renderer written in C++ based on Ray Tracing in One Weekend.
       </Project>
     </>
   )
