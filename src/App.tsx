@@ -2,6 +2,7 @@ import './style.css'
 import ThreeDGameOfLife from '/3DGameOfLife.png'
 import RubiksCube from '/RubiksCube.png'
 import AdventOfCode from '/AdventOfCode.png'
+import Raycasting from '/Raycasting.png'
 import Project from './Project'
 
 export default function App() {
@@ -66,6 +67,17 @@ export default function App() {
         This is a repository for my solutions to Advent of Code 2024 and 2025.
         <br />
         I primarily used Python but I also solved some of the problems using other languages.
+      </Project>
+
+      <Project
+        title='Raycasting'
+        image={Raycasting}
+        repoTo='https://github.com/TomCP20/Raycasting'
+        icons={["C#", "OpenGL"]}
+      >
+        This is a Ray casting based renderer written in C# using the OpenTK library.
+        <br />
+        Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for it's use in The video game Wolfenstein 3D.
       </Project>
     </>
   )
