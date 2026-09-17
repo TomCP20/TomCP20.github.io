@@ -4,6 +4,7 @@ import RubiksCube from '/RubiksCube.png'
 import AdventOfCode from '/AdventOfCode.png'
 import Raycasting from '/Raycasting.png'
 import TurtleFractalDrawer from '/TurtleFractalDrawer.png'
+import FallingSandSimulator from '/FallingSandSimulator.png'
 import Project from './Project'
 
 export default function App() {
@@ -92,6 +93,17 @@ export default function App() {
         L-systems (aka Lindenmayer systems) are a type of fromal grammar, they consist of an axiom and a set of rules.
         For example to draw a Sierpinski triangle you could use the axiom F-G-G and the rule F -{'>'} F-G+F+G-F, G -{'>'}
         in this case applying the rules once would result in F-G+F+G-F-GG-GG. The turtle interprits the reult character by character with an F or G meaning "Move forward one step", + meaning "turn right 120 degrees", and - meaning "turn left 120 degrees".
+      </Project>
+
+      <Project
+        title='Falling Sand Simulator'
+        image={FallingSandSimulator}
+        repoTo='https://github.com/TomCP20/Falling-Sand-Simulator'
+        icons={['C#', 'OpenGL']}
+      >
+        This is a Falling Sand Simulation written in C# using the OpenTK library.
+        <br />
+        The program uses a cellular automaton for the simulation logic.
       </Project>
     </>
   )
