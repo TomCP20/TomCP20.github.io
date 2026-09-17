@@ -158,6 +158,16 @@ export default function App() {
       >
         A Spirograph generator made with React..
       </Project>
+
+      <Project
+        title='Hangman'
+        image='/Hangman.png'
+        repoTo='https://github.com/TomCP20/Hangman'
+        pageTo='https://tomcp20.github.io/Hangman/'
+        icons={['React', 'TypeScript', 'Tailwind CSS']}
+      >
+        Hangman written in React with TypeScipt.
+      </Project>
     </>
   )
 }
