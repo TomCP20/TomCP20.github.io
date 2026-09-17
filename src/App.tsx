@@ -5,6 +5,7 @@ import AdventOfCode from '/AdventOfCode.png'
 import Raycasting from '/Raycasting.png'
 import TurtleFractalDrawer from '/TurtleFractalDrawer.png'
 import FallingSandSimulator from '/FallingSandSimulator.png'
+import ArchimedesHueSpiral from '/ArchimedesHueSpiral.png'
 import Project from './Project'
 
 export default function App() {
@@ -104,6 +105,18 @@ export default function App() {
         This is a Falling Sand Simulation written in C# using the OpenTK library.
         <br />
         The program uses a cellular automaton for the simulation logic.
+      </Project>
+
+      <Project
+        title='Archimedes Hue Spiral'
+        image={ArchimedesHueSpiral}
+        repoTo='https://github.com/TomCP20/Archimedes-Hue-Spiral'
+        pageTo='https://tomcp20.github.io/Archimedes-Hue-Spiral/'
+        icons={['React', 'TypeScript', 'CSS', 'Three.js']}
+      >
+        A shader animation using React Three Fiber.
+        <br />
+        It combines Archimedes Spiral with a rainbow conic gradient.
       </Project>
     </>
   )
