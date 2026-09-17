@@ -13,7 +13,7 @@ export default function Project({ title, image, repoTo, pageTo, icons, children 
       <br />
       <IconList names={icons} />
       <div className='text-center m-4'>
-        <Link to={repoTo}>Repo</Link> {pageTo !== undefined && (<Link to={pageTo}>Page</Link>)}
+        <Link to={repoTo}>Repo</Link>{pageTo !== undefined && (<Link to={pageTo}>Page</Link>)}
       </div>
     </div>);
 }
