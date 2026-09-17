@@ -148,6 +148,16 @@ export default function App() {
       >
         A React Three Fiber app that uses a shader to render the Mandelbrot set.
       </Project>
+
+      <Project
+        title='React Spirograph'
+        image='/ReactSpirograph.png'
+        repoTo='https://github.com/TomCP20/React-Spirograph/tree/main'
+        pageTo='https://tomcp20.github.io/React-Spirograph/'
+        icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
+      >
+        A Spirograph generator made with React..
+      </Project>
     </>
   )
 }
