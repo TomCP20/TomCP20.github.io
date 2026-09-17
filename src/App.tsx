@@ -120,6 +120,15 @@ export default function App() {
       >
         RayTracing is a CPU Ray Tracing Renderer written in C++ based on Ray Tracing in One Weekend.
       </Project>
+
+      <Project
+        title='Spirograph'
+        image='/Spirograph.png'
+        repoTo='https://github.com/TomCP20/Python-Spirograph'
+        icons={['Python']}
+      >
+        A Python program that draws a randomly generated Spirographs via the turtle library.
+      </Project>
     </>
   )
 }
