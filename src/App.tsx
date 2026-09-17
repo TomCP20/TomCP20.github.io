@@ -138,6 +138,16 @@ export default function App() {
       >
         A 3D Cellular Automata written in C++ with OpenGL.
       </Project>
+
+      <Project
+        title='Mandelbrot Plotting'
+        image='/Mandelbrot.png'
+        repoTo='https://github.com/TomCP20/Mandelbrot-Plotting'
+        pageTo='https://tomcp20.github.io/Mandelbrot-Plotting/'
+        icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
+      >
+        A React Three Fiber app that uses a shader to render the Mandelbrot set.
+      </Project>
     </>
   )
 }
