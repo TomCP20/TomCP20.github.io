@@ -156,7 +156,7 @@ export default function App() {
         pageTo='https://tomcp20.github.io/React-Spirograph'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
-        A Spirograph generator made with React..
+        A Spirograph generator made with React.
       </Project>
 
       <Project
