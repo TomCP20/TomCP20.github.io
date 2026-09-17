@@ -168,6 +168,15 @@ export default function App() {
       >
         Hangman written in React with TypeScipt.
       </Project>
+
+      <Project
+        title='Voronoi diagram'
+        image='/VoronoiDiagram.png'
+        repoTo='https://github.com/TomCP20/Voronoi-diagram'
+        icons={['Python']}
+      >
+        A python program that generates Voronoi diagrams.
+      </Project>
     </>
   )
 }
