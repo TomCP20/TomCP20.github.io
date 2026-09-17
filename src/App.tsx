@@ -1,12 +1,4 @@
 import './style.css'
-import ThreeDGameOfLife from '/3DGameOfLife.png'
-import RubiksCube from '/RubiksCube.png'
-import AdventOfCode from '/AdventOfCode.png'
-import Raycasting from '/Raycasting.png'
-import TurtleFractalDrawer from '/TurtleFractalDrawer.png'
-import FallingSandSimulator from '/FallingSandSimulator.png'
-import ArchimedesHueSpiral from '/ArchimedesHueSpiral.png'
-import RayTracing from '/RayTracing.png'
 import Project from './Project'
 
 export default function App() {
@@ -27,7 +19,7 @@ export default function App() {
       <h2 className='text-center text-xl m-4'>Projects</h2>
       <Project
         title='Cellular Automaton Collection'
-        image={ThreeDGameOfLife}
+        image='/3DGameOfLife.png'
         repoTo='https://github.com/TomCP20/Cellular-Automaton-Collection'
         pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection/'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
@@ -43,7 +35,7 @@ export default function App() {
 
       <Project
         title='Rubik Cubes Simulator'
-        image={RubiksCube}
+        image='/RubiksCube.png'
         repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator'
         pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'
         icons={['C#', 'Unity']}
@@ -64,7 +56,7 @@ export default function App() {
 
       <Project
         title='Advent Of Code'
-        image={AdventOfCode}
+        image='/AdventOfCode.png'
         repoTo='https://github.com/TomCP20/Advent-Of-Code'
         icons={['Python', 'C++', 'C#', 'Rust', 'F#']}
       >
@@ -75,7 +67,7 @@ export default function App() {
 
       <Project
         title='Raycasting'
-        image={Raycasting}
+        image='/Raycasting.png'
         repoTo='https://github.com/TomCP20/Raycasting'
         icons={['C#', 'OpenGL']}
       >
@@ -86,7 +78,7 @@ export default function App() {
 
       <Project
         title='Turtle Fractal Drawer'
-        image={TurtleFractalDrawer}
+        image='/TurtleFractalDrawer.png'
         repoTo='https://github.com/TomCP20/Turtle-Fractal-Drawer'
         icons={['Python']}
       >
@@ -99,7 +91,7 @@ export default function App() {
 
       <Project
         title='Falling Sand Simulator'
-        image={FallingSandSimulator}
+        image='/FallingSandSimulator.png'
         repoTo='https://github.com/TomCP20/Falling-Sand-Simulator'
         icons={['C#', 'OpenGL']}
       >
@@ -110,7 +102,7 @@ export default function App() {
 
       <Project
         title='Archimedes Hue Spiral'
-        image={ArchimedesHueSpiral}
+        image='/ArchimedesHueSpiral.png'
         repoTo='https://github.com/TomCP20/Archimedes-Hue-Spiral'
         pageTo='https://tomcp20.github.io/Archimedes-Hue-Spiral/'
         icons={['React', 'TypeScript', 'CSS', 'Three.js']}
@@ -122,7 +114,7 @@ export default function App() {
 
       <Project
         title='RayTracing'
-        image={RayTracing}
+        image='/RayTracing.png'
         repoTo='https://github.com/TomCP20/RayTracing'
         icons={['C++']}
       >
