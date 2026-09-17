@@ -4,9 +4,9 @@ import { IconList, type iconName } from './Icons';
 
 export default function Project({ title, image, repoTo, pageTo, icons, children }: Readonly<{ title: string; image: string; repoTo: string; pageTo?: string; icons: iconName[]; children: ReactNode; }>) {
   return (
-    <div className='w-[50%] m-auto p-1'>
-      <h3 className='text-center text-lg m-4'>{title}</h3>
-      <img src={image} className='bg-black mx-auto my-8' />
+    <div className='w-[50%] rounded-lg border mx-auto my-3 p-2'>
+      <h3 className='text-center text-lg underline m-3'>{title}</h3>
+      <img src={image} className='bg-black mx-auto my-6' />
       <div>
         {children}
       </div>

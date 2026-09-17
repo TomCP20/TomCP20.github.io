@@ -5,18 +5,18 @@ export default function App() {
 
   return (
     <>
-      <h1 className='text-center text-2xl m-5'>Portfolio</h1>
-      <h2 className='text-center text-xl m-4'>About Me</h2>
+      <h1 className='text-center text-2xl bg-gray-400 p-5 my-2'>My Portfolio</h1>
+      <h2 className='text-center text-xl underline m-4'>About Me</h2>
       <div className='w-[50%] m-auto p-1'>
         <div>
-          I am a graduate of UEA's computer science course looking for a Software developer role.
+          My name is Thomas Campbell-Preston and I am a graduate of UEA's computer science course looking for a Software developer role.
         </div>
         <br />
         <div>
           I am a keen programmer with a strong mathematical background and a good grounding in the fundamentals of computer science. My university degree course has given me a solid grounding in a broad range of programming environments and techniques. I enjoy applying my mathematical skills to understanding how things work and my software engineering skills to create solutions to real problems. I want to pursue a career in the exciting and rapidly developing field of software development. This is an ambition I have had since the age of 12 when I started learning Python on a Raspberry Pi.
         </div>
       </div>
-      <h2 className='text-center text-xl m-4'>Projects</h2>
+      <h2 className='text-center text-xl underline m-4'>Projects</h2>
       <Project
         title='Cellular Automaton Collection'
         image='/3DGameOfLife.png'
