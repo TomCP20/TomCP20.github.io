@@ -129,6 +129,15 @@ export default function App() {
       >
         A Python program that draws a randomly generated Spirographs via the turtle library.
       </Project>
+
+      <Project
+        title='OpenGL 3D Cellular Automata'
+        image='/OpenGL3DCellularAutomata.png'
+        repoTo='https://github.com/TomCP20/OpenGL-3D-Cellular-Automata'
+        icons={['C++', 'OpenGL']}
+      >
+        A 3D Cellular Automata written in C++ with OpenGL.
+      </Project>
     </>
   )
 }
