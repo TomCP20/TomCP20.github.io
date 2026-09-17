@@ -26,10 +26,10 @@ export default function App() {
         image={ThreeDGameOfLife}
         repoTo='https://github.com/TomCP20/Cellular-Automaton-Collection'
         pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection/'
-        icons={["React", "TypeScript", "Tailwind CSS", "Three.js"]}
+        icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
         Cellular Automaton Collection is a website that contains various celluar automaton such as:
-        <ul className="list-disc list-inside">
+        <ul className='list-disc list-inside'>
           <li>Wolfram code</li>
           <li>Conway's Game of Life</li>
           <li>Maze and Mazectric</li>
@@ -42,10 +42,10 @@ export default function App() {
         image={RubiksCube}
         repoTo='https://github.com/TomCP20/Rubik-Cubes-Simulator'
         pageTo='https://tomcp20.github.io/Rubik-Cube-Page/'
-        icons={["C#", "Unity"]}
+        icons={['C#', 'Unity']}
       >
         This is a project I created for my dissertation during my 3rd year of the BSc (Hons) Computing Science course at the University of East Anglia. The project has the following features:
-        <ul className="list-disc list-inside">
+        <ul className='list-disc list-inside'>
           <li>Simulating a Rubik's cube.</li>
           <li>A 3D interactive GUI to allow the user to interact with a Simulated cube.</li>
           <li>Implementation of The Layer by Layer method.</li>
@@ -62,7 +62,7 @@ export default function App() {
         title='Advent Of Code'
         image={AdventOfCode}
         repoTo='https://github.com/TomCP20/Advent-Of-Code'
-        icons={["Python", "C++", "C#", "Rust", "F#"]}
+        icons={['Python', 'C++', 'C#', 'Rust', 'F#']}
       >
         This is a repository for my solutions to Advent of Code 2024 and 2025.
         <br />
@@ -73,7 +73,7 @@ export default function App() {
         title='Raycasting'
         image={Raycasting}
         repoTo='https://github.com/TomCP20/Raycasting'
-        icons={["C#", "OpenGL"]}
+        icons={['C#', 'OpenGL']}
       >
         This is a Ray casting based renderer written in C# using the OpenTK library.
         <br />
