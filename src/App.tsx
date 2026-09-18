@@ -24,7 +24,7 @@ export default function App() {
         pageTo='https://tomcp20.github.io/Cellular-Automaton-Collection'
         icons={['React', 'TypeScript', 'Tailwind CSS', 'Three.js']}
       >
-        Cellular Automaton Collection is a website that contains various celluar automaton such as:
+        Cellular Automaton Collection is a website that contains cellular automata such as:
         <ul className='list-disc list-inside'>
           <li>Wolfram code</li>
           <li>Conway's Game of Life</li>
@@ -49,7 +49,7 @@ export default function App() {
           <li>The ability to measure the efficiency of the algorithms using various metrics.</li>
           <li>The ability to show the effectiveness of the methods via a histogram.</li>
           <li>To show an animation of a cube being solved using the implemented methods with some information about the method being displayed alongside it.</li>
-          <li>To allow the user to input a Rubik's cube state into the software and see it be solved via the animation system.</li>
+          <li>To allow the user to input a Rubik's cube state into the software and see it being solved via the animation system.</li>
           <li>The ability to save and load multiple Rubik's cube states.</li>
         </ul>
       </Project>
@@ -84,9 +84,20 @@ export default function App() {
       >
         This is a Python program that uses a Turtle and L-systems  to draw fractals.
         <br />
-        L-systems (aka Lindenmayer systems) are a type of fromal grammar, they consist of an axiom and a set of rules.
-        For example to draw a Sierpinski triangle you could use the axiom F-G-G and the rule F -{'>'} F-G+F+G-F, G -{'>'}
-        in this case applying the rules once would result in F-G+F+G-F-GG-GG. The turtle interprits the reult character by character with an F or G meaning "Move forward one step", + meaning "turn right 120 degrees", and - meaning "turn left 120 degrees".
+        L-systems (aka Lindenmayer systems) are a type of formal grammar, they consist of an axiom and a set of rules.
+        For example to draw a Sierpinski triangle you could use the following L-system:
+        <br/>
+        Axiom: F-G-G
+        <br/>
+        Rules: (F -{'>'} F-G+F+G-F), (G -{'>'} GG)
+        <br/>
+        In this case applying the rules once would result in the string F-G+F+G-F-GG-GG. The turtle interprets the result character by character as such:
+        <br/>
+        F or G: Move forward one step.
+        <br/>
+        +: Turn right 120 degrees.
+        <br/>
+        -: Turn left 120 degrees.
       </Project>
 
       <Project
@@ -127,7 +138,7 @@ export default function App() {
         repoTo='https://github.com/TomCP20/Python-Spirograph'
         icons={['Python']}
       >
-        A Python program that draws a randomly generated Spirographs via the turtle library.
+        A Python program that draws randomly generated Spirographs via the turtle library.
       </Project>
 
       <Project
@@ -136,7 +147,7 @@ export default function App() {
         repoTo='https://github.com/TomCP20/OpenGL-3D-Cellular-Automata'
         icons={['C++', 'OpenGL']}
       >
-        A 3D Cellular Automata written in C++ with OpenGL.
+        A 3D Cellular Automaton written in C++ with OpenGL.
       </Project>
 
       <Project
