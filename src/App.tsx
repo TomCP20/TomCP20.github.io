@@ -42,15 +42,15 @@ export default function App() {
       >
         This is a project I created for my dissertation during my 3rd year of the BSc (Hons) Computing Science course at the University of East Anglia. The project has the following features:
         <ul className='list-disc list-inside'>
-          <li>Simulating a Rubik's cube.</li>
+          <li>Simulating a Rubik's Cube.</li>
           <li>A 3D interactive GUI to allow the user to interact with a Simulated cube.</li>
-          <li>Implementation of The Layer by Layer method.</li>
-          <li>Implementation of The CFOP method.</li>
+          <li>Implementation of the Layer by Layer method.</li>
+          <li>Implementation of the CFOP method.</li>
           <li>The ability to measure the efficiency of the algorithms using various metrics.</li>
           <li>The ability to show the effectiveness of the methods via a histogram.</li>
-          <li>To show an animation of a cube being solved using the implemented methods with some information about the method being displayed alongside it.</li>
-          <li>To allow the user to input a Rubik's cube state into the software and see it being solved via the animation system.</li>
-          <li>The ability to save and load multiple Rubik's cube states.</li>
+          <li>To show an animation of a cube being solved using the implemented methods, with some information about the method being displayed alongside it.</li>
+          <li>To allow the user to input a Rubik's Cube state into the software and see it being solved via the animation system.</li>
+          <li>The ability to save and load multiple Rubik's Cube states.</li>
         </ul>
       </Project>
 
@@ -62,7 +62,7 @@ export default function App() {
       >
         This is a repository for my solutions to Advent of Code 2024 and 2025.
         <br />
-        I primarily used Python but I also solved some of the problems using other languages.
+        I primarily used Python, but I also solved some of the problems using other languages.
       </Project>
 
       <Project
@@ -71,9 +71,9 @@ export default function App() {
         repoTo='https://github.com/TomCP20/Raycasting'
         icons={['C#', 'OpenGL']}
       >
-        This is a Ray casting based renderer written in C# using the OpenTK library.
+        This is a ray-casting-based renderer written in C# using the OpenTK library.
         <br />
-        Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for it's use in The video game Wolfenstein 3D.
+        Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for it's use in the video game Wolfenstein 3D.
       </Project>
 
       <Project
@@ -84,20 +84,18 @@ export default function App() {
       >
         This is a Python program that uses a Turtle and L-systems  to draw fractals.
         <br />
-        L-systems (aka Lindenmayer systems) are a type of formal grammar, they consist of an axiom and a set of rules.
-        For example to draw a Sierpinski triangle you could use the following L-system:
-        <br/>
-        Axiom: F-G-G
-        <br/>
-        Rules: (F -{'>'} F-G+F+G-F), (G -{'>'} GG)
-        <br/>
-        In this case applying the rules once would result in the string F-G+F+G-F-GG-GG. The turtle interprets the result character by character as such:
-        <br/>
-        F or G: Move forward one step.
-        <br/>
-        +: Turn right 120 degrees.
-        <br/>
-        -: Turn left 120 degrees.
+        L-systems (aka Lindenmayer systems) are a type of formal grammar; they consist of an axiom and a set of rules.
+        For example, to draw a Sierpinski triangle, you could use the following L-system:
+        <ul className='list-disc list-inside'>
+          <li>Axiom: F-G-G</li>
+          <li>Rules: (F -{'>'} F-G+F+G-F), (G -{'>'} GG)</li>
+        </ul>
+        In this case, applying the rules once would result in the string F-G+F+G-F-GG-GG. The turtle interprets the result character by character as follows:
+        <ul className='list-disc list-inside'>
+          <li>F or G: Move forward one step.</li>
+          <li>+: Turn right 120 degrees.</li>
+          <li>-: Turn left 120 degrees.</li>
+        </ul>
       </Project>
 
       <Project
@@ -129,7 +127,7 @@ export default function App() {
         repoTo='https://github.com/TomCP20/RayTracing'
         icons={['C++']}
       >
-        RayTracing is a CPU Ray Tracing Renderer written in C++ based on Ray Tracing in One Weekend.
+        RayTracing is a CPU Ray Tracing Renderer written in C++ based on the Ray Tracing in One Weekend book series.
       </Project>
 
       <Project
@@ -177,7 +175,7 @@ export default function App() {
         pageTo='https://tomcp20.github.io/Hangman'
         icons={['React', 'TypeScript', 'Tailwind CSS']}
       >
-        Hangman written in React with TypeScipt.
+        Hangman written in React with TypeScript.
       </Project>
 
       <Project
@@ -186,7 +184,7 @@ export default function App() {
         repoTo='https://github.com/TomCP20/Voronoi-diagram'
         icons={['Python']}
       >
-        A python program that generates Voronoi diagrams.
+        A Python program that generates Voronoi diagrams.
       </Project>
     </>
   )
