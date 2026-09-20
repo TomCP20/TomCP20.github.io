@@ -37,7 +37,7 @@ function Icon({ name }: Readonly<{ name: iconName; }>) {
 export function IconList({ names }: Readonly<{ names: iconName[] }>) {
     return (
         <div className='text-center p-1'>
-            {names.map(name => <Icon name={name} />)}
+            {names.map(name => <Icon key={name} name={name} />)}
         </div>
     )
 }

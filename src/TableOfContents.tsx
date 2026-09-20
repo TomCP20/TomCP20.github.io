@@ -14,7 +14,7 @@ export default function TableOfContents() {
     return (
         <nav aria-label='Table of contents' className='h-screen sticky top-0 py-1 px-2 float-right'>
             <ul className='list-disc list-inside'>
-                {headings.map((heading) => <HeaderLink heading={heading} />)}
+                {headings.map((heading) => <HeaderLink key={heading.id} heading={heading} />)}
             </ul>
         </nav>
     )
@@ -22,7 +22,7 @@ export default function TableOfContents() {
 
 function HeaderLink({ heading }: Readonly<{ heading: header }>) {
     return (
-        <li key={heading.id} className={heading.isChild ? "indent-4" : ""}>
+        <li className={heading.isChild ? "indent-4" : ""}>
             <a href={`#${heading.id}`} className='hover:underline' >
                 {heading.title}
             </a>
