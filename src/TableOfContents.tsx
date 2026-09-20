@@ -12,7 +12,7 @@ export default function TableOfContents() {
     }, []);
 
     return (
-        <nav aria-label='Table of contents' className='h-screen sticky top-0 py-1 px-2 float-right'>
+        <nav aria-label='Table of contents' className='sticky top-2 mx-2 py-1 px-2 float-right bg-gray-200 rounded-md'>
             <ul className='list-disc list-inside'>
                 {headings.map((heading) => <HeaderLink key={heading.id} heading={heading} />)}
             </ul>
