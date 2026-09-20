@@ -1,7 +1,16 @@
 import { useEffect, useState } from 'react';
 
 export default function TableOfContents() {
-    const { headings } = useHeadingsData();
+    const [headings, setHeadings] = useState<header[]>([]);
+
+    useEffect(() => {
+        const headingElements = Array.from(document.querySelectorAll<HTMLElement>('h2, h3'));
+        const newHeadings: header[] = headingElements.map(
+            (heading) => ({ id: heading.id, title: heading.innerText, isChild: heading.nodeName === 'H3' })
+        );
+        setHeadings(newHeadings);
+    }, []);
+
     return (
         <nav aria-label='Table of contents' className='h-screen sticky top-0 py-1 px-2 float-right'>
             <ul className='list-disc list-inside'>
@@ -20,26 +29,6 @@ function HeaderLink({ heading }: Readonly<{ heading: header }>) {
         </li >
     );
 }
-
-
-function useHeadingsData() {
-    const [headings, setHeadings] = useState<header[]>([]);
-
-    useEffect(() => {
-        const newHeadings: header[] = [];
-
-        const headingElements = Array.from(
-            document.querySelectorAll<HTMLElement>('h2, h3')
-        );
-
-        headingElements.forEach((heading) => {
-            newHeadings.push({ id: heading.id, title: heading.innerText, isChild: heading.nodeName === 'H3' });
-        });
-        setHeadings(newHeadings);
-    }, []);
-
-    return { headings };
-};
 
 interface header {
     id: string
