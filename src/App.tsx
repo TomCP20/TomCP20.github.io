@@ -76,7 +76,7 @@ export default function App() {
           >
             This is a ray-casting-based renderer written in C# using the OpenTK library.
             <br />
-            Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for it's use in the video game Wolfenstein 3D.
+            Raycasting, not to be confused with raytracing, is a form of 2.5D image rendering most well known for its use in the video game Wolfenstein 3D.
           </Project>
 
           <Project
